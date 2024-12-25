@@ -1,0 +1,31 @@
+{
+  "name": "aws-game-builder-challenge",
+  "version": "1.0.0",
+  "description": "This repo is for building games using AWS tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deveshkp/aws-game-builder-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deveshkp/aws-game-builder-challenge/issues"
+  },
+  "homepage": "https://github.com/deveshkp/aws-game-builder-challenge#readme",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.716.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  }
+}
